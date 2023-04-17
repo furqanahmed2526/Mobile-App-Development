@@ -1,0 +1,107 @@
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
+
+
+
+export default function Chessboard() {
+
+  return (
+    <View style={styles.Box} >
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blackBox} />
+    </View>
+
+
+  );
+}
+
+const styles = StyleSheet.create({
+
+  Box: {
+    marginTop:250,
+    marginLeft:30,
+    height: 320,
+    width: 320,
+    backgroundColor: "grey",
+    borderStyle: 'solid',
+    flexDirection: "row",
+    flexWrap: "wrap",
+    alignContent: "centre",
+    alignItem:"centre",
+    justifyContent: "centre",
+
+  },
+  blackBox: {
+    backgroundColor: "black",
+    width: 40,
+    height: 40,
+  },
+  whiteBox: {
+    backgroundColor: "white",
+    width: 40,
+    height: 40,
+
+  }
+});
